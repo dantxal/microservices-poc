@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {
+    "concurrently": "^6.3.0"
+  },
+  "scripts": {
+    "dev:airports": "yarn workspace airports dev",
+    "dev:booking": "yarn workspace booking dev",
+    "dev": "concurrently --kill-others-on-fail \"yarn dev:airports\" \"yarn dev:booking\""
+  }
+}

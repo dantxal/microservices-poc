@@ -1,0 +1,16 @@
+{
+  "name": "airports",
+  "type": "module",
+  "version": "1.0.0",
+  "main": "server.js",
+  "dependencies": {
+    "cross-env": "5.0.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  },
+  "scripts": {
+    "dev": "nodemon server.js"
+  }
+}

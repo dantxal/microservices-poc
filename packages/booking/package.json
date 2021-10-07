@@ -1,0 +1,17 @@
+{
+  "name": "booking",
+  "type": "module",
+  "version": "1.0.0",
+  "main": "server.js",
+  "dependencies": {
+    "airports": "workspace:*",
+    "axios": "^0.22.0",
+    "cross-env": "5.0.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  },
+  "scripts": {
+    "dev": "nodemon server.js"
+  }
+}
